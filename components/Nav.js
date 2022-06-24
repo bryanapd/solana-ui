@@ -27,7 +27,7 @@ export const Nav = () => {
       <Box bgColor="black" px={4} color="white">
         <Flex h={20} alignItems={'center'} >
           <HStack cursor="pointer" href="#">
-            <Image cursor="pointer" h={9} w={9} src="https://cryptologos.cc/logos/solana-sol-logo.png" />
+            <Image cursor="pointer" h={9} w={9} src="https://cryptologos.cc/logos/solana-sol-logo.png" alt="solana logo" />
             <Heading size="lg">SOLANA</Heading>
           </HStack>
           <Spacer />

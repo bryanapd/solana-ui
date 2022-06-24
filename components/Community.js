@@ -19,7 +19,7 @@ export const Community = () => (
         title="Solana Community" 
         bg="secondary.pink"
         >
-          <Text fontSize="lg">There's something for everybody. Follow along, <br /> chat on Discord, or read up on what we’re doing.</Text>
+          <Text fontSize="lg">There&apos;s something for everybody. Follow along, <br /> chat on Discord, or read up on what we&apos;re doing.</Text>
       </ItemCard>
       <ItemCard 
         extra={( 

@@ -13,7 +13,7 @@ export const Scale = () => (
     </Container>
 
     <Box>
-      <Image src="https://solana.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findex_scale_adoption.c7a36416.png&w=3840&q=90" />
+      <Image alt="scalability img" src="https://solana.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findex_scale_adoption.c7a36416.png&w=3840&q=90" />
     </Box>
 
   </Box>

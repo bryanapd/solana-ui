@@ -14,7 +14,7 @@ const ListHeader = ({ children }) => {
 };
 const FooterButton = ({ title = 'SOLANA.COM' }) => (
   <Flex w="auto" bg="white" color="black" py={6} px={9} borderRadius={20} mt={20}>
-    <Image h="30px" src="https://cryptologos.cc/logos/solana-sol-logo.png"/>
+    <Image h="30px" src="https://cryptologos.cc/logos/solana-sol-logo.png" alt="Solana Logo" />
     <Spacer />
     <Text>{title}</Text>
   </Flex>
