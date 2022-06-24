@@ -16,6 +16,6 @@ export const ThemedButton = ({ title, bg = "black", style }) => (
     }}>{title}</Button>
 )
 
-export const ThemedTitle = ({ children, color = 'white',  }) => (
-  <Heading color={color} fontSize={{ base: '4xl', md: '65px' }}>{children}</Heading>
+export const ThemedTitle = ({ children, color = 'white', ...props  }) => (
+  <Heading color={color} fontSize={{ base: '4xl', md: '65px' }} {...props}>{children}</Heading>
 )
